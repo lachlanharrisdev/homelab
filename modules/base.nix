@@ -8,7 +8,7 @@
     settings = { PasswordAuthentication = false; PermitRootLogin = "no"; };
   };
 
-  users.users.you = {
+  users.users.lachlan = {
     isNormalUser = true;
     extraGroups = [ "wheel" "docker" ];
     openssh.authorizedKeys.keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKEiEBPEbc2jt3Z82ppOifWEJxHLGrYoD36ZyzhlpR00 contact@lachlanharris.au" ];

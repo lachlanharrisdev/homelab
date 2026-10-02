@@ -1,8 +1,8 @@
 { ... }: {
-  users.users.you.uid = 1000;
+  users.users.lachlan.uid = 1000;
 
   systemd.tmpfiles.rules = [
-    "d /srv/data/amp 0755 you users -"
+    "d /srv/data/amp 0755 lachlan users -"
   ];
 
   virtualisation.oci-containers.containers.amp = {
