@@ -2,7 +2,7 @@
   disko.devices.disk = {
     ssd = {
       type = "disk";
-      device = "/dev/disk/by-id/nvme-KXG60ZNV256G_KIOXIA_210C20JXETL2";
+      device = "/dev/disk/by-id/nvme-KXG60ZNV256G_KIOXIA_21OC20JXETL2";
       content = {
         type = "gpt";
         partitions = {
