@@ -19,6 +19,15 @@
 
   programs.nix-ld.enable = true;
 
-  environment.systemPackages = with pkgs; [ git vim htop ];
+  environment.systemPackages = with pkgs; [ git vim htop gh ];
+
+  programs.git = {
+    enable = true;
+    config = {
+      user.name = "Lachlan Harris";
+      user.email = "contact@lachlanharris.au";
+      init.defaultBranch = "main";
+    };
+  };
   system.stateVersion = "26.05";
 }
